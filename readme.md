@@ -28,8 +28,8 @@ brew install imagick@8.0
 
 | PHP  |  Architecture | Thread Safe  |  Non Thread Safe | ImageMagick |
 |------|---------------|--------------|------------------|----------------|
-| 8.0  | x64   | [php_imagick-3.4.4-dev x64 ts](./8.0/x64/ts/php_imagick.zip?raw=true) | [php_imagick-3.4.4-dev x64 nts](./8.0/x64/nts/php_imagick.zip?raw=true) | [ImageMagick-7.0.11 x64.zip](./IM/ImageMagick-7.0.11-Q16-HDRI.zip?raw=true)
-| 8.0  | x86   | [php_imagick-3.4.4-dev x86 ts](./8.0/x86/ts/php_imagick.zip?raw=true) | [php_imagick-3.4.4-dev x86 nts](./8.0/x86/nts/php_imagick.zip?raw=true) | [ImageMagick-7.0.11 x86.zip](./IM/ImageMagick-7.0.11-Q16-HDRI-x86.zip?raw=true)
+| 8.0.2  | x64   | [php_imagick-3.4.4-dev x64 ts](./8.0/x64/ts/php_imagick.zip?raw=true) | [php_imagick-3.4.4-dev x64 nts](./8.0/x64/nts/php_imagick.zip?raw=true) | [ImageMagick-7.0.11 x64.zip](./IM/ImageMagick-7.0.11-Q16-HDRI.zip?raw=true)
+| 8.0.2  | x86   | [php_imagick-3.4.4-dev x86 ts](./8.0/x86/ts/php_imagick.zip?raw=true) | [php_imagick-3.4.4-dev x86 nts](./8.0/x86/nts/php_imagick.zip?raw=true) | [ImageMagick-7.0.11 x86.zip](./IM/ImageMagick-7.0.11-Q16-HDRI-x86.zip?raw=true)
 
 
 
@@ -40,8 +40,7 @@ Once you downloaded the correct files:
   3.  Add this line to your `php.ini` file:
     `extension=php_imagick.dll`
   4.  Restart the Apache/NGINX Windows service (if applicable)
-
-https://github.com/mentax/Imagick_for_php8/8.0/x86/ts/php_imagick.zip
+ 
 --------------
 
 To test if the extension works, you can run this PHP code:
